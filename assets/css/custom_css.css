@@ -1,0 +1,94 @@
+.ProfileImg img.user-img-radious-style {
+  width: 50px;
+}
+
+.main-sidebar {
+  box-shadow: 0 4px 25px 0 rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  height: 100%;
+  width: 250px;
+  background-color: #022333;
+  z-index: 880;
+  left: 0;
+}
+
+.bbbUN.text-white {
+  font-size: 16px;
+  /* font-weight: 700; */
+}
+.colorUser {
+  color: #60686f;
+}
+.nohoverUser:hover {
+  background-color: #022333;
+}
+
+.main-sidebar .sidebar-menu li a:hover {
+  background-color: #022333;
+}
+.bgSidebar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  /* padding: 0 20px; */
+  width: 100%;
+  letter-spacing: 0.3px;
+  color: #60686f;
+  font-weight: 600;
+  text-decoration: none;
+  background-color: #123140;
+  margin-left: 30px;
+  border-radius: 10px;
+}
+.searchBaricon {
+  padding-right: 0px;
+  position: relative;
+  right: -15px;
+  border-top-left-radius: 40px !important;
+  border-bottom-left-radius: 40px !important;
+}
+.searchBarBorder {
+  border-top-right-radius: 40px !important;
+  border-bottom-right-radius: 40px !important;
+  width: 409px !important;
+}
+a.AnchorDashboard {
+  color: #6777ef !important;
+}
+
+span.panelClass {
+  font-weight: 800;
+}
+img.saqure-img {
+  border-radius: 10px !important;
+  width: 83px !important;
+  /* height: 50px !important; */
+}
+.mainTableClass th {
+  color: #827b7d;
+}
+.mainTableClass td {
+  color: #827b7d;
+}
+
+.ApproveColor {
+  color: #2df127;
+  font-weight: 800;
+}
+
+.SubmittedColor {
+  color: #ffba5f;
+  font-weight: 800;
+}
+.unapproveColor {
+  color: red;
+  font-weight: 800;
+}
+
+.radiusBtn {
+  border-radius: 30px;
+  width: 78px;
+  padding: 1px 2px;
+}
