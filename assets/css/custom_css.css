@@ -1,3 +1,42 @@
+@font-face {
+  font-family: boldFont;
+  src: url('../fonts/Font_Hind_Madurai/HindMadurai-Bold.ttf');
+}
+@font-face {
+  font-family: lightFont;
+  src: url('../fonts/Font_Hind_Madurai/HindMadurai-Light.ttf');
+}
+@font-face {
+  font-family: mediumFont;
+  src: url('../fonts/Font_Hind_Madurai/HindMadurai-Medium.ttf');
+}
+@font-face {
+  font-family: regularFont;
+  src: url('../fonts/Font_Hind_Madurai/HindMadurai-Regular.ttf');
+}
+@font-face {
+  font-family: SemiBoldFont;
+  src: url('../fonts/Font_Hind_Madurai/HindMadurai-SemiBold.ttf');
+}
+
+.boldFont {
+  font-family: boldFont;
+}
+.lightFont {
+  font-family: lightFont;
+}
+.mediumFont {
+  font-family: mediumFont;
+}
+.regularFont {
+  font-family: regularFont;
+}
+.SemiBoldFont {
+  font-family: SemiBoldFont;
+}
+
+/* font end */
+
 body {
   background-color: #d6efff !important;
 }
@@ -454,6 +493,13 @@ h2.basicH {
     rgba(254, 172, 100, 1) 50%,
     rgba(255, 173, 101, 1) 100%
   );
+}
+button.btn.btnPayStripe {
+  width: 117px;
+  background-color: white;
+  color: #0184cc;
+  border-radius: 40px;
+  margin-top: 20px;
 }
 
 @media only screen and (max-width: 600px) {

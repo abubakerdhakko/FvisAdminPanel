@@ -21,13 +21,11 @@
             </li>
 
 
-            <li class=""><a class="nav-link mt-5 bgSidebar" href="blank.html"><span>Blank Page</span></a></li>
+            <li class=""><a class="nav-link mt-5 bgSidebar" href="project_Submission"><span>Project Submission</span></a></li>
 
-            <li class=""><a class="nav-link mt-5 bgSidebar" href="blank.html"><span>Investor</span></a></li>
+            <li class=""><a class="nav-link mt-5 bgSidebar" href="payment_panel"><span>Payment Panel</span></a></li>
 
-            <li class=""><a class="nav-link mt-5 bgSidebar" href="blank.html"><span>Payment Panel</span></a></li>
-
-            <li class=""><a class="nav-link mt-5 bgSidebar" href="blank.html"><span>Investment Panel</span></a></li>
+            <li class=""><a class="nav-link mt-5 bgSidebar" href="investment_panel.php"><span>Investment Panel</span></a></li>
 
           </ul>
         </aside>

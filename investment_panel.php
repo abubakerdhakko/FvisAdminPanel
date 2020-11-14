@@ -59,6 +59,10 @@
                 <li>Lorem Ipsum is simply dummy text   </li>
             </ul>
         </div>
+        
+        <div class="d-flex justify-content-center ">
+        <button class="btn btnPayStripe">Pay Via Stripe</button>
+        </div>
     </div>
     </div>
     <div class="col-md-4 col-lg-4 col-sm-4 col-xs-4">
@@ -76,6 +80,10 @@
                 <li>Lorem Ipsum is simply dummy text   </li>
                 <li>Lorem Ipsum is simply dummy text   </li>
             </ul>
+        </div>
+        
+        <div class="d-flex justify-content-center ">
+        <button class="btn btnPayStripe">Pay Via Stripe</button>
         </div>
     </div>
     </div>
