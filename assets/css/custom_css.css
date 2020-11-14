@@ -1,3 +1,7 @@
+body {
+  background-color: #d6efff !important;
+}
+
 .ProfileImg img.user-img-radious-style {
   width: 50px;
 }
@@ -91,4 +95,369 @@ img.saqure-img {
   border-radius: 30px;
   width: 78px;
   padding: 1px 2px;
+}
+.projSub {
+  background: rgb(51, 190, 184);
+  background: linear-gradient(
+    90deg,
+    rgba(51, 190, 184, 1) 0%,
+    rgba(51, 190, 184, 1) 25%,
+    rgba(0, 212, 255, 1) 64%
+  );
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  position: relative;
+}
+h4.projSubH {
+  color: white;
+  font-size: 17px;
+  font-weight: 700;
+  padding-top: 15px;
+  margin-bottom: 0px;
+}
+
+p.topList {
+  margin-bottom: 0px;
+}
+p.topListTwo {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.posArrow {
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  background-color: #0000004a;
+  width: 30px;
+  height: 30px;
+  border-radius: 24px;
+}
+.innerArrowPos {
+  position: absolute;
+  left: 9px;
+  top: 5px;
+}
+.outerArrowPos {
+  position: relative;
+}
+.projSub {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(19, 156, 150, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  padding: 20px 10px;
+  border-radius: 10px;
+  color: white;
+  position: relative;
+}
+
+.paymentPanel {
+  background: rgb(210, 142, 83);
+  background: linear-gradient(
+    90deg,
+    rgba(210, 142, 83, 1) 0%,
+    rgba(254, 172, 100, 1) 50%,
+    rgba(255, 173, 101, 1) 100%
+  );
+  padding: 20px 10px;
+  border-radius: 10px;
+  color: white;
+  position: relative;
+}
+
+.investmentPanel {
+  background: rgb(0, 105, 163);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 105, 163, 1) 19%,
+    rgba(0, 130, 202, 1) 49%,
+    rgba(0, 132, 205, 1) 100%
+  );
+  padding: 20px 10px;
+  border-radius: 10px;
+  color: white;
+  position: relative;
+}
+.innerArrowPos .fa-arrow-right {
+  transform: rotate(-35deg);
+  color: white;
+}
+
+.innerArrowPos .fa-arrow-right:hover {
+  transform: rotate(0deg);
+  color: white;
+}
+
+.Show_all button {
+  background-color: white !important;
+  color: #000 !important;
+  width: 150px;
+  height: 45px;
+  box-shadow: none;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 15px -7px #000000;
+  box-shadow: 0px 0px 15px -7px #000000;
+}
+
+.Show_all button .dropdown-toggle::after {
+  display: inline-block;
+  margin-left: 2.255em;
+  vertical-align: 0.255em;
+  content: '';
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent;
+  padding-top: -15px;
+}
+.status_p {
+  color: #00000052;
+  font-weight: 700;
+  margin-bottom: 0px;
+  margin-top: 10px;
+  margin-right: 20px;
+  font-size: 12px;
+}
+button.btn.btn-primary.hover_btn_sort.dropdown-toggle:hover {
+  background-color: #fff !important;
+}
+a.AnchorDashboard {
+  color: #57b1e3 !important;
+}
+
+.projWallet {
+  background: rgb(0, 105, 163);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 105, 163, 1) 19%,
+    rgba(0, 130, 202, 1) 49%,
+    rgba(0, 132, 205, 1) 100%
+  );
+  padding: 20px 20px;
+  border-radius: 10px;
+  color: white;
+  position: relative;
+  max-height: 370px;
+}
+h4.walletH {
+  font-size: 16px;
+}
+
+.posWallet {
+  margin-top: 60px;
+}
+
+.max_height_table {
+  max-height: 318px;
+  overflow-y: scroll;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #e1f0fb;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.basic {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(19, 156, 150, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  padding: 45px;
+  border-radius: 25px;
+}
+
+.basic:hover {
+  background: transparent;
+  color: #156fb4;
+  border: solid 1px #156fb4;
+}
+#basic:hover ul.ul_lorem_Main li {
+  color: #156fb4;
+}
+#basic:hover ul.ul_lorem_Main li::before {
+  color: #156fb4;
+}
+#basic:hover h2 {
+  color: #156fb4;
+}
+ul.ul_lorem_Main li {
+  color: white;
+  font-size: 12px;
+  line-height: 14px;
+  margin-bottom: 17px;
+}
+
+ul {
+  list-style: none; /* Remove default bullets */
+}
+
+ul.ul_lorem_Main li::before {
+  content: '\2022'; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  /* color: #156fb4;  */
+  color: #fff;
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+h2.basicH {
+  color: white;
+  font-size: 17px;
+  margin-bottom: 25px;
+}
+/* start silver */
+
+.Silver {
+  background: rgb(0, 105, 163);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 105, 163, 1) 19%,
+    rgba(0, 130, 202, 1) 49%,
+    rgba(0, 132, 205, 1) 100%
+  );
+  padding: 20px 10px;
+  padding: 45px;
+  border-radius: 25px;
+}
+
+.Silver:hover {
+  background: transparent;
+  color: #156fb4;
+  border: solid 1px #156fb4;
+}
+#Silver:hover ul.ul_lorem_Main li {
+  color: #156fb4;
+}
+#Silver:hover ul.ul_lorem_Main li::before {
+  color: #156fb4;
+}
+#Silver:hover h2 {
+  color: #156fb4;
+}
+ul.ul_lorem_Main li {
+  color: white;
+  font-size: 12px;
+  line-height: 14px;
+  margin-bottom: 17px;
+}
+
+ul {
+  list-style: none; /* Remove default bullets */
+}
+
+ul.ul_lorem_Main li::before {
+  content: '\2022'; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  /* color: #156fb4;  */
+  color: #fff;
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+h2.basicH {
+  color: white;
+  font-size: 17px;
+  margin-bottom: 25px;
+}
+
+/* end silver */
+
+/* start silver */
+
+.gold {
+  background: rgb(0, 105, 163);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 105, 163, 1) 19%,
+    rgba(0, 130, 202, 1) 49%,
+    rgba(0, 132, 205, 1) 100%
+  );
+  padding: 20px 10px;
+  padding: 45px;
+  border-radius: 25px;
+}
+
+.gold:hover {
+  background: transparent;
+  color: #156fb4;
+  border: solid 1px #156fb4;
+}
+#gold:hover ul.ul_lorem_Main li {
+  color: #156fb4;
+}
+#gold:hover ul.ul_lorem_Main li::before {
+  color: #156fb4;
+}
+#gold:hover h2 {
+  color: #156fb4;
+}
+ul.ul_lorem_Main li {
+  color: white;
+  font-size: 12px;
+  line-height: 14px;
+  margin-bottom: 17px;
+}
+
+ul {
+  list-style: none; /* Remove default bullets */
+}
+
+ul.ul_lorem_Main li::before {
+  content: '\2022'; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  /* color: #156fb4;  */
+  color: #fff;
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+h2.basicH {
+  color: white;
+  font-size: 17px;
+  margin-bottom: 25px;
+}
+
+/* end gold */
+
+.gold {
+  background: rgb(210, 142, 83);
+  background: linear-gradient(
+    90deg,
+    rgba(210, 142, 83, 1) 0%,
+    rgba(254, 172, 100, 1) 50%,
+    rgba(255, 173, 101, 1) 100%
+  );
+}
+
+@media only screen and (max-width: 600px) {
+  .mob_mt_2 {
+    margin-top: 2rem;
+  }
 }

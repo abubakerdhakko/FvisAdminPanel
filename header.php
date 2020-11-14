@@ -1,7 +1,6 @@
 <nav class="navbar navbar-expand-lg main-navbar sticky">
         <div class="form-inline mr-auto">
           <ul class="navbar-nav mr-3">
-          
             <li>
               <form class="form-inline mr-auto">
                 <div class="search-element">
@@ -9,7 +8,6 @@
                     <i class="fas fa-search"></i>
                   </button>  
                 <input class="form-control searchBarBorder" type="search" placeholder="Search" aria-label="Search" >
-                  
                 </div>
               </form>
             </li>
