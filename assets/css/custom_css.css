@@ -502,6 +502,30 @@ button.btn.btnPayStripe {
   margin-top: 20px;
 }
 
+.btnpersonal {
+    width: 115px;
+    font-size: 12px;
+    font-weight: 100;
+    border-radius: 100px;
+}
+.btnAttach{
+  background-color: transparent;
+    /* border-color: transparent !important; */
+    /* color: #fff; */
+    width: 115px;
+    font-size: 12px;
+    font-weight: 100;
+    border-radius: 100px;
+    border: solid 1px #6777ef;
+    color: #6777ef;
+
+}
+h6.AttachLoi {
+    font-family: 'lightFont';
+    font-size: 19px;
+    color: #000;
+    letter-spacing: 1px;
+}
 @media only screen and (max-width: 600px) {
   .mob_mt_2 {
     margin-top: 2rem;
