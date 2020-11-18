@@ -20,6 +20,8 @@
 </head>
 
 <body>
+<div class="" id="wwrapper">
+
   <div class="loader"></div>
   <div id="app">
     <div class="main-wrapper main-wrapper-1">
@@ -29,6 +31,7 @@
 
 <!-- sidebar -->
 <?php include 'sidebar.php';?>
+    <section id="mmain">
 
       <!-- Main Content -->
       <div class="main-content">
@@ -145,6 +148,8 @@
         </section>
         
       </div>
+</section>
+
       <footer class="main-footer">
         <div class="footer-left">
           <a href="#">Footer</a></a>
@@ -153,6 +158,7 @@
         </div>
       </footer>
     </div>
+  </div>
   </div>
   <!-- General JS Scripts -->
   <script src="assets/js/app.min.js"></script>

@@ -20,6 +20,8 @@
 </head>
 
 <body>
+    <div class="" id="wwrapper">
+
   <div class="loader"></div>
   <div id="app">
     <div class="main-wrapper main-wrapper-1">
@@ -29,6 +31,7 @@
 
 <!-- sidebar -->
 <?php include 'sidebar.php';?>
+    <section id="mmain">
 
       <!-- Main Content -->
       <div class="main-content">
@@ -57,8 +60,12 @@
             <div class="mt-1">
                 <form class="mainInputPersonal">
                 <div class="mt-3">
-                    <button class="btn btnAttach  mt-3">Next</button>
-                </div>    
+                  <div class="chooseFile">
+                    Choose File
+                  <input type="file" class="hide_file">
+                  </div>                
+                </div> 
+                <br/>   
                 <div class="mt-3">
                     <button class="btn btnpersonal btn-primary mt-3">Next</button>
                     </div>
@@ -70,6 +77,8 @@
         </section>
         
       </div>
+</section >
+
       <footer class="main-footer">
         <div class="footer-left">
           <a href="#">Footer</a></a>
@@ -79,6 +88,8 @@
       </footer>
     </div>
   </div>
+  
+      </div>
   <!-- General JS Scripts -->
   <script src="assets/js/app.min.js"></script>
   <!-- JS Libraies -->
@@ -89,6 +100,15 @@
   <script src="assets/js/scripts.js"></script>
   <!-- Custom JS File -->
   <script src="assets/js/custom.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function (event) {
+    var element = document.getElementById('wwrapper');
+    var height = element.offsetHeight;
+    if (height < screen.height) {
+        document.getElementById("footer").classList.add('stikybottom');
+    }
+}, false);
+  </script>
 </body>
 <!-- index.html  21 Nov 2019 03:47:04 GMT -->
 </html>

@@ -20,6 +20,8 @@
 </head>
 
 <body>
+    <div class="" id="wwrapper">
+
   <div class="loader"></div>
   <div id="app">
     <div class="main-wrapper main-wrapper-1">
@@ -29,10 +31,11 @@
 
 <!-- sidebar -->
 <?php include 'sidebar.php';?>
+    <section id="mmain">
 
       <!-- Main Content -->
       <div class="main-content">
-        <section class="section">
+        <section class="section mb-5">
           <div class="d-flex justify-content-between">
           <div class="">
             <a class="AnchorDashboard">Back To Dashboard</a>
@@ -116,6 +119,9 @@
         </section>
         
       </div>
+
+</div>
+</section>
       <footer class="main-footer">
         <div class="footer-left">
           <a href="#">Footer</a></a>

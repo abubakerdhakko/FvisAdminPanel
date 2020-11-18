@@ -45,19 +45,19 @@
         <div class="row">
         <div class="col-md-4">
             <div class="">
-            <h3 class="Personal">Personal Info</h3>
+            <h3 class="Personal SemiBoldFont textBlack">Personal Info</h3>
             </div>        
-            <div class="mt-5">
+            <div class="mt-4">
                 <form class="mainInputPersonal">
                     <div class="input-group inputPer">
-                    <input class="form-control" placeholder="Full Name"/>
+                    <input class="form-control fontInputCompany" placeholder="Full Name"/>
                     </div>
                     <div class="input-group mt-3 inputPer">
-                    <input class="form-control" placeholder="E-mail"/>
+                    <input class="form-control fontInputCompany" placeholder="E-mail"/>
                     </div>
                     
                     <div class="input-group inputPer mt-3">
-                    <input class="form-control" placeholder="Contact Number"/>
+                    <input class="form-control fontInputCompany" placeholder="Contact Number"/>
                     </div>
                     <div class="mt-3">
                     <button class="btn btnpersonal btn-primary mt-3">Next</button>

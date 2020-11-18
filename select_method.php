@@ -6,7 +6,7 @@
 <head>
   <meta charset="UTF-8">
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
-  <title>Fvis Project Company Info</title>
+  <title>Fvis Project Personal Info</title>
   <!-- General CSS Files -->
   <link rel="stylesheet" href="assets/css/app.min.css">
   <!-- Template CSS -->
@@ -42,46 +42,39 @@
           </div>  
         </div>
 
-        <div class="d-flex justify-content-start mb-4">
-          <div class="">
-            <a class="AnchorDashboard">Back</a>
-          </div>
-        </div>
-
-
         <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-6">
             <div class="">
-            <h3 class="Personal SemiBoldFont textBlack">Company Info</h3>
+            <h3 class="Personal SemimediumFont textBlack">Select your prefered funding Method</h3>
             </div>        
             <div class="mt-4">
-                <form class="mainInputPersonal">
-                    <div class="input-group inputPer">
-                    <input class="form-control fontInputCompany" placeholder="Company Name"/>
+                 <form action="/action_page.php">
+                    <div class="form-check">
+                    <label class="form-check-label mediumFont fs_Radio" for="radio1">
+                        <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>Loan
+                    </label>
                     </div>
-                    <div class="input-group mt-3 inputPer">
-                    <input class="form-control fontInputCompany" placeholder="Registration No"/>
+                    <div class="form-check">
+                    <label class="form-check-label mediumFont fs_Radio" for="radio2">
+                        <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">Financial Instrument/SBLC,BG etc
+                    </label>
                     </div>
-                    
-                    <div class="input-group inputPer mt-3">
-                    <input class="form-control fontInputCompany" placeholder="Postal Address"/>
-                    </div>
-                    <div class="input-group mt-3 inputPer">
-                    <input class="form-control fontInputCompany" placeholder="E-mail"/>
-                    </div>
-                    
-                    <div class="input-group inputPer mt-3">
-                    <input class="form-control fontInputCompany" placeholder="fax"/>
-                    </div>
-                    <div class="input-group mt-3 inputPer">
-                    <input class="form-control fontInputCompany" placeholder="E-mail"/>
+                    <div class="form-check">
+                    <label class="form-check-label mediumFont fs_Radio">
+                        <input type="radio" class="form-check-input" disabled>Joint Venture
+                    </label>
                     </div>
                     
-                    <div class="input-group inputPer mt-3">
-                    <input class="form-control fontInputCompany" placeholder="Contact Number"/>
+                    <div class="form-check">
+                    <label class="form-check-label mediumFont fs_Radio">
+                        <input type="radio" class="form-check-input" disabled>Project For sale
+                    </label>
                     </div>
-                    <div class="mt-3">
-                    <button class="btn btnpersonal btn-primary mt-3">Next</button>
+                    
+                    <div class="form-check">
+                    <label class="form-check-label mediumFont fs_Radio">
+                        <input type="radio" class="form-check-input" disabled>Crowd Funding With Share Benefit
+                    </label>
                     </div>
                 </form>
             </div>

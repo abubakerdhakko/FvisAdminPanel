@@ -18,7 +18,9 @@
   font-family: SemiBoldFont;
   src: url('../fonts/Font_Hind_Madurai/HindMadurai-SemiBold.ttf');
 }
-
+.textBlack{
+  color: #000;
+}
 .boldFont {
   font-family: boldFont;
 }
@@ -98,7 +100,7 @@ body {
   width: 409px !important;
 }
 a.AnchorDashboard {
-  color: #6777ef !important;
+  color: #0084cd !important;
 }
 
 span.panelClass {
@@ -325,8 +327,8 @@ h4.walletH {
     rgba(19, 156, 150, 1) 0%,
     rgba(0, 212, 255, 1) 100%
   );
-  padding: 45px;
-  border-radius: 25px;
+    padding: 35px 35px;  border-radius: 25px;
+        margin: 10px 15px;
 }
 
 .basic:hover {
@@ -379,9 +381,9 @@ h2.basicH {
     rgba(0, 130, 202, 1) 49%,
     rgba(0, 132, 205, 1) 100%
   );
-  padding: 20px 10px;
-  padding: 45px;
-  border-radius: 25px;
+    padding: 35px 35px;
+      border-radius: 25px;
+          margin: 10px 15px;
 }
 
 .Silver:hover {
@@ -437,9 +439,9 @@ h2.basicH {
     rgba(0, 130, 202, 1) 49%,
     rgba(0, 132, 205, 1) 100%
   );
-  padding: 20px 10px;
-  padding: 45px;
+      padding: 35px 35px;
   border-radius: 25px;
+      margin: 10px 15px;
 }
 
 .gold:hover {
@@ -501,11 +503,11 @@ button.btn.btnPayStripe {
   border-radius: 40px;
   margin-top: 20px;
 }
-
 .btnpersonal {
     width: 115px;
     font-size: 12px;
     font-weight: 100;
+    background-color: #0084cd !important;
     border-radius: 100px;
 }
 .btnAttach{
@@ -516,15 +518,75 @@ button.btn.btnPayStripe {
     font-size: 12px;
     font-weight: 100;
     border-radius: 100px;
-    border: solid 1px #6777ef;
-    color: #6777ef;
+    border: solid 1px #0084cd;
+    color: #0084cd;
 
 }
 h6.AttachLoi {
     font-family: 'lightFont';
-    font-size: 19px;
+    font-size: 17px;
     color: #000;
     letter-spacing: 1px;
+}
+.chooseFile {
+    padding: 7px 20px;
+    background: transparent;
+    border: 1px solid #0084cd;
+    position: relative;
+    color: #fff;
+    border-radius: 2px;
+    text-align: center;
+    float: left;
+    cursor: pointer;
+    border-radius: 30px;
+    color: #0084cd;
+}
+.hide_file {
+    position: absolute;
+    z-index: 1000;
+    opacity: 0;
+    cursor: pointer;
+    right: 0;
+    top: 0;
+    height: 100%;
+    font-size: 24px;
+    width: 100%;
+    
+}
+
+
+.fontSideNav span{
+color: #beb4b4  !important;
+}
+
+.bbb {
+    color: #60686f;
+}
+#footer.stikybottom {
+    position: fixed;
+    bottom:0;
+    left: 0;
+    right:0;
+}
+
+element.style {
+}
+.Personal {
+    font-size: 17px;
+}
+.fontInputCompany{
+  font-size: 12px !important;
+  background: rgb(255 255 255 / 70%);
+      border-radius: 7px;
+}
+.disc_p p {
+    font-weight: 700;
+    color: #000;
+    line-height: 23px;
+    font-size: 13px;
+}
+.fs_Radio {
+    font-size: 15px;
 }
 @media only screen and (max-width: 600px) {
   .mob_mt_2 {

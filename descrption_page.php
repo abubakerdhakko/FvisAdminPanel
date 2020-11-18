@@ -6,7 +6,7 @@
 <head>
   <meta charset="UTF-8">
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
-  <title>Fvis Project Company Info</title>
+  <title>Fvis Project Personal Info</title>
   <!-- General CSS Files -->
   <link rel="stylesheet" href="assets/css/app.min.css">
   <!-- Template CSS -->
@@ -42,52 +42,30 @@
           </div>  
         </div>
 
-        <div class="d-flex justify-content-start mb-4">
-          <div class="">
-            <a class="AnchorDashboard">Back</a>
-          </div>
-        </div>
-
-
         <div class="row">
-        <div class="col-md-4">
-            <div class="">
-            <h3 class="Personal SemiBoldFont textBlack">Company Info</h3>
-            </div>        
+        <div class="col-md-7">
+                   
             <div class="mt-4">
-                <form class="mainInputPersonal">
-                    <div class="input-group inputPer">
-                    <input class="form-control fontInputCompany" placeholder="Company Name"/>
-                    </div>
-                    <div class="input-group mt-3 inputPer">
-                    <input class="form-control fontInputCompany" placeholder="Registration No"/>
-                    </div>
-                    
-                    <div class="input-group inputPer mt-3">
-                    <input class="form-control fontInputCompany" placeholder="Postal Address"/>
-                    </div>
-                    <div class="input-group mt-3 inputPer">
-                    <input class="form-control fontInputCompany" placeholder="E-mail"/>
-                    </div>
-                    
-                    <div class="input-group inputPer mt-3">
-                    <input class="form-control fontInputCompany" placeholder="fax"/>
-                    </div>
-                    <div class="input-group mt-3 inputPer">
-                    <input class="form-control fontInputCompany" placeholder="E-mail"/>
-                    </div>
-                    
-                    <div class="input-group inputPer mt-3">
-                    <input class="form-control fontInputCompany" placeholder="Contact Number"/>
-                    </div>
-                    <div class="mt-3">
-                    <button class="btn btnpersonal btn-primary mt-3">Next</button>
-                    </div>
-                </form>
+               <div class="">
+            <h3 class="Personal SemiBoldFont textBlack">Personal Info</h3>
+            </div> 
+            <div class="disc_p">
+                <p class="lightFont">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of
+                </p>
+                
+                <p class="lightFont mt-3">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                </p>
+            </div> 
             </div>
             </div>
         </div>
+        <div class="col-md-5">
+            <div class="imgBgDisc">
 
+            </div>
+        </div>
         </section>
         
       </div>
