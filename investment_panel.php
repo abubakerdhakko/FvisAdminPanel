@@ -35,7 +35,7 @@
 
       <!-- Main Content -->
       <div class="main-content">
-        <section class="section mb-5">
+        <section class="section ">
           <div class="d-flex justify-content-between">
           <div class="">
             <a class="AnchorDashboard">Back To Dashboard</a>
@@ -52,14 +52,14 @@
             <h2 class="basicH">Basic</h2>
         </div>        
         <div class="ul_lorem_Main_div">
-            <ul class="ul_lorem_Main">
-                <li>Lorem Ipsum is simply dummy text  </li>
-                <li>Lorem Ipsum is simply dummy text  </li>
-                <li>Lorem Ipsum is simply dummy text   </li>
-                <li>Lorem Ipsum is simply dummy text  </li>
-                <li>Lorem Ipsum is simply dummy text  </li>
-                <li>Lorem Ipsum is simply dummy text   </li>
-                <li>Lorem Ipsum is simply dummy text   </li>
+            <ul class="ul_lorem_Mainn ul_lorem_Mainn">
+                <li>Lorem Ipsum is simply dummy </li>
+                <li>Lorem Ipsum is simply dummy </li>
+                <li>Lorem Ipsum is simply dummy </li>
+                <li>Lorem Ipsum is simply dummy </li>
+                <li>Lorem Ipsum is simply dummy </li>
+                <li>Lorem Ipsum is simply dummy </li>
+                <li>Lorem Ipsum is simply dummy </li>
             </ul>
         </div>
         
@@ -75,13 +75,13 @@
         </div>        
         <div class="ul_lorem_Main_div">
             <ul class="ul_lorem_Main">
-                <li>Lorem Ipsum is simply dummy text  </li>
-                <li>Lorem Ipsum is simply dummy text  </li>
-                <li>Lorem Ipsum is simply dummy text   </li>
-                <li>Lorem Ipsum is simply dummy text  </li>
-                <li>Lorem Ipsum is simply dummy text  </li>
-                <li>Lorem Ipsum is simply dummy text   </li>
-                <li>Lorem Ipsum is simply dummy text   </li>
+                <li>Lorem Ipsum is simply dummy </li>
+                <li>Lorem Ipsum is simply dummy </li>
+                <li>Lorem Ipsum is simply dummy </li>
+                <li>Lorem Ipsum is simply dummy </li>
+                <li>Lorem Ipsum is simply dummy </li>
+                <li>Lorem Ipsum is simply dummy </li>
+                <li>Lorem Ipsum is simply dummy </li>
             </ul>
         </div>
         
@@ -99,13 +99,13 @@
         </div>        
         <div class="ul_lorem_Main_div">
             <ul class="ul_lorem_Main">
-                <li>Lorem Ipsum is simply dummy text  </li>
-                <li>Lorem Ipsum is simply dummy text  </li>
-                <li>Lorem Ipsum is simply dummy text   </li>
-                <li>Lorem Ipsum is simply dummy text  </li>
-                <li>Lorem Ipsum is simply dummy text  </li>
-                <li>Lorem Ipsum is simply dummy text   </li>
-                <li>Lorem Ipsum is simply dummy text   </li>
+                <li>Lorem Ipsum is simply dummy </li>
+                <li>Lorem Ipsum is simply dummy </li>
+                <li>Lorem Ipsum is simply dummy </li>
+                <li>Lorem Ipsum is simply dummy </li>
+                <li>Lorem Ipsum is simply dummy </li>
+                <li>Lorem Ipsum is simply dummy </li>
+                <li>Lorem Ipsum is simply dummy </li>
             </ul>
         </div>
         <div class="d-flex justify-content-center ">
@@ -122,13 +122,13 @@
 
 </div>
 </section>
-      <footer class="main-footer">
+      <!-- <footer class="main-footer">
         <div class="footer-left">
           <a href="#">Footer</a></a>
         </div>
         <div class="footer-right">
         </div>
-      </footer>
+      </footer> -->
     </div>
   </div>
   <!-- General JS Scripts -->

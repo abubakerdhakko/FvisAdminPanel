@@ -319,43 +319,52 @@ h4.walletH {
   background: #555;
 }
 
-.basic {
-  background: rgb(0, 0, 0);
-  background: linear-gradient(
-    90deg,
-    rgba(0, 0, 0, 1) 0%,
-    rgba(19, 156, 150, 1) 0%,
-    rgba(0, 212, 255, 1) 100%
-  );
-    padding: 35px 35px;  border-radius: 25px;
-        margin: 10px 15px;
+.main-content {
+    padding-left: 280px;
+    padding-right: 30px;
+    padding-top: 110px !important;
+    width: 100%;
+    position: relative;
 }
-
-.basic:hover {
+.basic {
+    
   background: transparent;
   color: #156fb4;
   border: solid 1px #156fb4;
+    padding: 30px 20px;
+    border-radius: 15px;
+    margin: 16px;
+        max-width: 300px;
 }
-#basic:hover ul.ul_lorem_Main li {
+button.btn.btnPayStripe:hover {
+    background-color: #0184cc !important;
+    /* background-color: #000; */
+    transform: scale(1.1) perspective(1px);
+    color: white;
+}
+ ul.ul_lorem_Mainn li {
   color: #156fb4;
 }
-#basic:hover ul.ul_lorem_Main li::before {
+ul.ul_lorem_Mainn li::before {
   color: #156fb4;
 }
-#basic:hover h2 {
+#basic h2 {
   color: #156fb4;
-}
-ul.ul_lorem_Main li {
-  color: white;
-  font-size: 12px;
-  line-height: 14px;
-  margin-bottom: 17px;
 }
 
 ul {
   list-style: none; /* Remove default bullets */
 }
 
+ul.ul_lorem_Mainn li::before {
+  content: '\2022'; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  /* color: #156fb4;  */
+  color: #156fb4;
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
 ul.ul_lorem_Main li::before {
   content: '\2022'; /* Add content: \2022 is the CSS Code/unicode for a bullet */
   /* color: #156fb4;  */
@@ -381,25 +390,12 @@ h2.basicH {
     rgba(0, 130, 202, 1) 49%,
     rgba(0, 132, 205, 1) 100%
   );
-    padding: 35px 35px;
-      border-radius: 25px;
-          margin: 10px 15px;
+    padding: 30px 20px;
+    border-radius: 15px;
+    margin: 16px;
+        max-width: 300px;
 }
 
-.Silver:hover {
-  background: transparent;
-  color: #156fb4;
-  border: solid 1px #156fb4;
-}
-#Silver:hover ul.ul_lorem_Main li {
-  color: #156fb4;
-}
-#Silver:hover ul.ul_lorem_Main li::before {
-  color: #156fb4;
-}
-#Silver:hover h2 {
-  color: #156fb4;
-}
 ul.ul_lorem_Main li {
   color: white;
   font-size: 12px;
@@ -439,25 +435,12 @@ h2.basicH {
     rgba(0, 130, 202, 1) 49%,
     rgba(0, 132, 205, 1) 100%
   );
-      padding: 35px 35px;
-  border-radius: 25px;
-      margin: 10px 15px;
+    padding: 30px 20px;
+    border-radius: 15px;
+    margin: 16px;
+        max-width: 300px;
 }
 
-.gold:hover {
-  background: transparent;
-  color: #156fb4;
-  border: solid 1px #156fb4;
-}
-#gold:hover ul.ul_lorem_Main li {
-  color: #156fb4;
-}
-#gold:hover ul.ul_lorem_Main li::before {
-  color: #156fb4;
-}
-#gold:hover h2 {
-  color: #156fb4;
-}
 ul.ul_lorem_Main li {
   color: white;
   font-size: 12px;
@@ -501,7 +484,7 @@ button.btn.btnPayStripe {
   background-color: white;
   color: #0184cc;
   border-radius: 40px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 .btnpersonal {
     width: 115px;
