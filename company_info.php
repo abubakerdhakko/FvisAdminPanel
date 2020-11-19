@@ -35,7 +35,7 @@
         <section class="section">
           <div class="d-flex justify-content-between">
           <div class="">
-            <a class="AnchorDashboard">Back To Dashboard</a>
+            <p class="BackBtn">Back To DashBoard</p>
           </div>
           <div class="">
             <p class="lightFontWellcome">Wellcome to <span class="panelClass">Admin panel</span></p>
@@ -44,7 +44,7 @@
 
         <div class="d-flex justify-content-start mb-4">
           <div class="">
-            <a class="AnchorDashboard">Back</a>
+            <a class="BackBtn">Back</a>
           </div>
         </div>
 
@@ -81,7 +81,7 @@
                     <input class="form-control fontInputCompany" placeholder="Contact Number"/>
                     </div>
                     <div class="mt-3">
-                    <button class="btn btnpersonal btn-primary mt-3">Next</button>
+                    <button class="btn btnpersonal   mt-3">Next</button>
                     </div>
                 </form>
             </div>

@@ -34,18 +34,18 @@
       <div class="main-content">
         <section class="section">
           <div class="d-flex justify-content-between">
-          <div class="">
-            <a class="AnchorDashboard">Back To Dashboard</a>
-          </div>
+          <div class="regularFont">
+            <span class="panelClass">Dashboard</span>         
+           </div>
           <div class="">
             <p class="lightFontWellcome">Wellcome to <span class="panelClass">Admin panel</span></p>
           </div>  
         </div>
-        <div class="row mt-3 mb-3">
+        <div class="row mt-3 mb-5">
           <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12">
             <div class="projSub">
               <h4 class="projSubH">
-              Project Submission
+              Investor
               </h4>
               <p class="topList">Top Listing</p>
               <p class="topListTwo">Lorem Ipsum is simply dummy text of the printing and typesetting   </p>
@@ -99,22 +99,15 @@
             <div class="col-12">
               <div class="card">
                 <div class="card-header">
-                  <h4>Assign Task Table</h4>
+                  <h4>Top Project</h4>
                   <div class="card-header-form">
-                    <form>
-                      <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Search">
-                        <div class="input-group-btn">
-                          <button class="btn btn-primary"><i class="fas fa-search"></i></button>
-                        </div>
-                      </div>
-                    </form>
+                    <a class="AnchorDashboard">View All</a>
                   </div>
                 </div>
                 <div class="card-body p-0">
                   <div class="table-responsive">
-                    <table class="table table-striped">
-                      <tr>
+                    <table class="table ">
+                      <tr class="thborderUpDown">
                         <th>ID</th>
                         <th>Project Name</th>
                         <th>Duration</th>

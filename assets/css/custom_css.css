@@ -60,7 +60,7 @@ body {
 
 .bbbUN.text-white {
   font-size: 16px;
-  /* font-weight: 700; */
+  font-weight: 100;
 }
 .colorUser {
   color: #60686f;
@@ -94,10 +94,14 @@ body {
   border-top-left-radius: 40px !important;
   border-bottom-left-radius: 40px !important;
 }
+
+
 .searchBarBorder {
-  border-top-right-radius: 40px !important;
-  border-bottom-right-radius: 40px !important;
-  width: 409px !important;
+    border-top-right-radius: 40px !important;
+    border-bottom-right-radius: 40px !important;
+    width: 409px !important;
+    /* font-size: 32px !important; */
+    font-family: 'lightFont';
 }
 a.AnchorDashboard {
   color: #0084cd !important;
@@ -105,6 +109,7 @@ a.AnchorDashboard {
 
 span.panelClass {
   font-weight: 800;
+      color: #000;
 }
 img.saqure-img {
   border-radius: 10px !important;
@@ -137,48 +142,37 @@ img.saqure-img {
   width: 78px;
   padding: 1px 2px;
 }
-.projSub {
-  background: rgb(51, 190, 184);
-  background: linear-gradient(
-    90deg,
-    rgba(51, 190, 184, 1) 0%,
-    rgba(51, 190, 184, 1) 25%,
-    rgba(0, 212, 255, 1) 64%
-  );
-  padding: 10px;
-  border-radius: 10px;
-  color: white;
-  position: relative;
-}
 h4.projSubH {
   color: white;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 700;
-  padding-top: 15px;
+  padding-top: 0px;
   margin-bottom: 0px;
 }
-
 p.topList {
-  margin-bottom: 0px;
+    margin-bottom: 0px;
+    font-size: 12px;
+    font-family: 'regularFont';
 }
 p.topListTwo {
-  font-size: 12px;
-  line-height: 16px;
+    font-size: 11px;
+    line-height: 16px;
+    font-family: 'lightFont';
+    margin-bottom: 8px;
 }
-
 .posArrow {
-  position: absolute;
-  bottom: 10px;
-  right: 20px;
-  background-color: #0000004a;
-  width: 30px;
-  height: 30px;
-  border-radius: 24px;
+    position: absolute;
+    bottom: 12px;
+    right: 16px;
+    background-color: #0000003d;
+    width: 27px;
+    height: 27px;
+    border-radius: 24px;
 }
 .innerArrowPos {
-  position: absolute;
-  left: 9px;
-  top: 5px;
+       position: absolute;
+    left: 8px;
+    top: 1px;
 }
 .outerArrowPos {
   position: relative;
@@ -191,7 +185,7 @@ p.topListTwo {
     rgba(19, 156, 150, 1) 0%,
     rgba(0, 212, 255, 1) 100%
   );
-  padding: 20px 10px;
+  padding: 20px 15px;
   border-radius: 10px;
   color: white;
   position: relative;
@@ -205,7 +199,7 @@ p.topListTwo {
     rgba(254, 172, 100, 1) 50%,
     rgba(255, 173, 101, 1) 100%
   );
-  padding: 20px 10px;
+  padding: 20px;
   border-radius: 10px;
   color: white;
   position: relative;
@@ -219,14 +213,15 @@ p.topListTwo {
     rgba(0, 130, 202, 1) 49%,
     rgba(0, 132, 205, 1) 100%
   );
-  padding: 20px 10px;
+  padding: 20px;
   border-radius: 10px;
   color: white;
   position: relative;
 }
 .innerArrowPos .fa-arrow-right {
-  transform: rotate(-35deg);
-  color: white;
+    transform: rotate(-35deg);
+    color: white;
+    font-size: 11px;
 }
 
 .innerArrowPos .fa-arrow-right:hover {
@@ -235,14 +230,15 @@ p.topListTwo {
 }
 
 .Show_all button {
-  background-color: white !important;
-  color: #000 !important;
-  width: 150px;
-  height: 45px;
-  box-shadow: none;
-  border-radius: 5px;
-  -webkit-box-shadow: 0px 0px 15px -7px #000000;
-  box-shadow: 0px 0px 15px -7px #000000;
+    background-color: white !important;
+    color: #000 !important;
+    width: 131px;
+    height: 37px;
+    box-shadow: none;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 15px -7px #000000;
+    box-shadow: 0px 0px 15px -7px #000000;
+        font-family: 'SemiBoldFont';
 }
 
 .Show_all button .dropdown-toggle::after {
@@ -260,17 +256,30 @@ p.topListTwo {
   color: #00000052;
   font-weight: 700;
   margin-bottom: 0px;
-  margin-top: 10px;
+  margin-top: 5px;
   margin-right: 20px;
   font-size: 12px;
+  font-family: 'SemiBoldFont';
+}
+.card .card-header h4 {
+    font-size: 14px;
+    line-height: 28px;
+    padding-right: 10px;
+    margin-bottom: 0;
+    color: #212529a8;
+    font-family: 'SemiBoldFont';
 }
 button.btn.btn-primary.hover_btn_sort.dropdown-toggle:hover {
   background-color: #fff !important;
 }
 a.AnchorDashboard {
   color: #57b1e3 !important;
+      font-family: 'SemiBoldFont';
 }
-
+p.lightFontWellcome {
+    font-family: 'regularFont';
+    color: #000;
+}
 .projWallet {
   background: rgb(0, 105, 163);
   background: linear-gradient(
@@ -331,7 +340,7 @@ h4.walletH {
   background: transparent;
   color: #156fb4;
   border: solid 1px #156fb4;
-    padding: 30px 20px;
+    padding: 23px 20px;
     border-radius: 15px;
     margin: 16px;
         max-width: 300px;
@@ -341,6 +350,16 @@ button.btn.btnPayStripe:hover {
     /* background-color: #000; */
     transform: scale(1.1) perspective(1px);
     color: white;
+}
+.btnpersonal:hover{
+ transform: scale(1.1) perspective(1px);
+     background-color: #0184cc !important;
+     color: white;
+}
+.BackBtn {
+    font-family: 'mediumFont';
+    color: #378abf !important;
+    font-size: 13px;
 }
  ul.ul_lorem_Mainn li {
   color: #156fb4;
@@ -378,7 +397,7 @@ ul.ul_lorem_Main li::before {
 h2.basicH {
   color: white;
   font-size: 17px;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 /* start silver */
 
@@ -390,7 +409,7 @@ h2.basicH {
     rgba(0, 130, 202, 1) 49%,
     rgba(0, 132, 205, 1) 100%
   );
-    padding: 30px 20px;
+    padding: 23px 20px;
     border-radius: 15px;
     margin: 16px;
         max-width: 300px;
@@ -417,11 +436,6 @@ ul.ul_lorem_Main li::before {
   margin-left: -1em; /* Also needed for space (tweak if needed) */
 }
 
-h2.basicH {
-  color: white;
-  font-size: 17px;
-  margin-bottom: 25px;
-}
 
 /* end silver */
 
@@ -435,7 +449,7 @@ h2.basicH {
     rgba(0, 130, 202, 1) 49%,
     rgba(0, 132, 205, 1) 100%
   );
-    padding: 30px 20px;
+    padding: 23px 20px;
     border-radius: 15px;
     margin: 16px;
         max-width: 300px;
@@ -462,11 +476,7 @@ ul.ul_lorem_Main li::before {
   margin-left: -1em; /* Also needed for space (tweak if needed) */
 }
 
-h2.basicH {
-  color: white;
-  font-size: 17px;
-  margin-bottom: 25px;
-}
+
 
 /* end gold */
 
@@ -480,11 +490,11 @@ h2.basicH {
   );
 }
 button.btn.btnPayStripe {
-  width: 117px;
+  width: 110px;
   background-color: white;
   color: #0184cc;
   border-radius: 40px;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 .btnpersonal {
     width: 115px;
@@ -492,6 +502,7 @@ button.btn.btnPayStripe {
     font-weight: 100;
     background-color: #0084cd !important;
     border-radius: 100px;
+    color: white;
 }
 .btnAttach{
   background-color: transparent;
@@ -552,10 +563,9 @@ color: #beb4b4  !important;
     right:0;
 }
 
-element.style {
-}
 .Personal {
-    font-size: 17px;
+    font-size: 20px;
+    margin-bottom: 35px;
 }
 .fontInputCompany{
   font-size: 12px !important;
@@ -563,14 +573,48 @@ element.style {
       border-radius: 7px;
 }
 .disc_p p {
-    font-weight: 700;
+    /* font-weight: 700; */
     color: #000;
     line-height: 23px;
-    font-size: 13px;
+    font-size: 15px;
+    /* letter-spacing: 1px; */
 }
 .fs_Radio {
     font-size: 15px;
 }
+
+
+.table:not(.table-sm):not(.table-md):not(.dataTable) td, .table:not(.table-sm):not(.table-md):not(.dataTable) th {
+    font-family: regularFont;
+
+    padding: 0 25px;
+    height: 60px;
+    vertical-align: middle;
+    font-size: 11px;
+    color: #212529a8;
+}
+.thborderUpDown {
+    border-top:  solid 1px rgb(0 0 0 / 13%);
+        border-bottom: solid 1px rgb(0 0 0 / 13%);
+
+}
+.dropdown-toggle::after {
+    display: inline-block;
+    /* margin-left: 3.255em; */
+    vertical-align: .255em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+    position: absolute;
+    right: 10px;
+    top: 17px;
+}
+button.btn.btn-primary.hover_btn_sort.dropdown-toggle:focus {
+    background-color: #fff !important;
+}
+
 @media only screen and (max-width: 600px) {
   .mob_mt_2 {
     margin-top: 2rem;

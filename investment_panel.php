@@ -41,7 +41,7 @@
             <a class="AnchorDashboard">Back To Dashboard</a>
           </div>
           <div class="">
-            <p class="lightFontWellcome">Wellcome to <span class="panelClass">Admin panel</span></p>
+            <p class="lightFontWellcome mb-0">Wellcome to <span class="panelClass">Admin panel</span></p>
           </div>  
         </div>
 

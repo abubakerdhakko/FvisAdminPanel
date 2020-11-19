@@ -82,96 +82,85 @@
               <div class="card">
                 <div class="card-header">
                   <h4>Project Detail</h4>
-                  <div class="card-header-form">
-                    <form>
-                      <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Search">
-                        <div class="input-group-btn">
-                          <button class="btn btn-primary"><i class="fas fa-search"></i></button>
-                        </div>
-                      </div>
-                    </form>
-                  </div>
+                  
                 </div>
                 <div class="card-body p-0">
                   <div class="table-responsive">
-                    <table class="table table-striped">
+                    <table class="table">
                       <tr>
-                        <th>ID</th>
-                        <th>Project Name</th>
-                        <th>Duration</th>
-                        <th>value</th>
-                        <th>Status</th>
-                        <th>Details</th>
+                        <th>FullName</th>
+                        <th>Primary Organization</th>
+                        <th>Location</th>
+                        <th>plan</th>
+                        <th>RoI Details</th>
 
                       </tr>
                       <tr>
-                      <td>OOOOO1</td>
-                        <td class="text-truncate">
-                          <ul class="list-unstyled m-b-0 m-b-0">
-                            <li class="team-member team-member-sm"><img class="saqure-img"
-                                src="assets/img/users/user-8.png" alt="user" data-toggle="tooltip" title=""
-                                data-original-title="Beyond Tv Mail">
-                                <span class="TableCompanyName ml-4">Beyond Tv Mail</span>
-                              </li>
-                          </ul>
-                        </td>
-                        <td class="align-middle">
-                        <span class="TableCompanyName ">3 to 5 Years</span>
-                        </td>
-                        <td>USD 100000</td>
-                        <td>
-                        <div class="ApproveColor">Approved</div>
-                        </td>
-                        <td>
-                        <a href="#" class="btn btn-outline-primary radiusBtn">view</a>
-                      </td>
-                      </tr>
-                      <tr>
-                      <td>OOOOO1</td>
-                        <td class="text-truncate">
-                          <ul class="list-unstyled m-b-0 m-b-0">
-                            <li class="team-member team-member-sm"><img class="saqure-img"
-                                src="assets/img/users/user-8.png" alt="user" data-toggle="tooltip" title=""
-                                data-original-title="Beyond Tv Mail">
-                                <span class="TableCompanyName ml-4">Beyond Tv Mail</span>
-                              </li>
-                          </ul>
-                        </td>
-                        <td class="align-middle">
-                        <span class="TableCompanyName ">3 to 5 Years</span>
-                        </td>
-                        <td>USD 100000</td>
-                        <td>
-                        <div class="SubmittedColor">Approved</div>
-                        </td>
-                        <td>
-                        <a href="#" class="btn btn-outline-primary radiusBtn">view</a>
-                      </td>
-                      </tr>
-                      <tr>
-                      <td>OOOOO1</td>
-                        <td class="text-truncate">
-                          <ul class="list-unstyled m-b-0 m-b-0">
-                            <li class="team-member team-member-sm"><img class="saqure-img"
-                                src="assets/img/users/user-8.png" alt="user" data-toggle="tooltip" title=""
-                                data-original-title="Beyond Tv Mail">
-                                <span class="TableCompanyName ml-4">Beyond Tv Mail</span>
-                              </li>
-                          </ul>
-                        </td>
-                        <td class="align-middle">
-                        <span class="TableCompanyName ">3 to 5 Years</span>
-                        </td>
-                        <td>USD 100000</td>
-                        <td>
-                        <div class="unapproveColor">UnApproved</div>
-                        </td>
-                        <td>
-                        <a href="#" class="btn btn-outline-primary radiusBtn">view</a>
-                      </td>
-                      </tr>
+                      <td>JohnDoe</td>
+                      <td>Lorem Ipso</td>
+
+                        <td>Lorem Ipso</td>
                       
+                        <td>
+                        <a href="#" class="btn btn-outline-primary radiusBtn">view</a>
+                      </td>                      
+                        <td>
+                        <a href="#" class="btn btn-outline-primary radiusBtn">view</a>
+                      </td>
+                      </tr>
+
+                      <tr>
+                      <td>JohnDoe</td>
+                      <td>Lorem Ipso</td>
+
+                        <td>Lorem Ipso</td>
+                      
+                        <td>
+                        <a href="#" class="btn btn-outline-primary radiusBtn">view</a>
+                      </td>                      
+                        <td>
+                        <a href="#" class="btn btn-outline-primary radiusBtn">view</a>
+                      </td>
+                      </tr>
+                      <tr>
+                      <td>JohnDoe</td>
+                      <td>Lorem Ipso</td>
+
+                        <td>Lorem Ipso</td>
+                      
+                        <td>
+                        <a href="#" class="btn btn-outline-primary radiusBtn">view</a>
+                      </td>                      
+                        <td>
+                        <a href="#" class="btn btn-outline-primary radiusBtn">view</a>
+                      </td>
+                      </tr>
+                      <tr>
+                      <td>JohnDoe</td>
+                      <td>Lorem Ipso</td>
+
+                        <td>Lorem Ipso</td>
+                      
+                        <td>
+                        <a href="#" class="btn btn-outline-primary radiusBtn">view</a>
+                      </td>                      
+                        <td>
+                        <a href="#" class="btn btn-outline-primary radiusBtn">view</a>
+                      </td>
+                      </tr>
+                      <tr>
+                      <td>JohnDoe</td>
+                      <td>Lorem Ipso</td>
+
+                        <td>Lorem Ipso</td>
+                      
+                        <td>
+                        <a href="#" class="btn btn-outline-primary radiusBtn">view</a>
+                      </td>                      
+                        <td>
+                        <a href="#" class="btn btn-outline-primary radiusBtn">view</a>
+                      </td>
+                      </tr>                      
                     </table>
                   </div>
                 </div>
