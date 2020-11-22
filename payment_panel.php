@@ -90,7 +90,7 @@
           <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
           <div class="projWallet">
               <h4 class="walletH">
-              Wallet
+              Amount Recieved
               </h4>
               <div class="posWallet text-right">
                     <h1 class="mb-0">$10000 </h1>
@@ -99,20 +99,24 @@
 
             <div class="projWallet mt-4">
               <h4 class="walletH">
-              Accounts Details
+              Payment Pending
               </h4>
-              <div class="posWallet text-left">
+              
+              <div class="posWallet text-right">
+                    <h1 class="mb-0">$10000 </h1>
+              </div>
+              <!-- <div class="posWallet text-left">
               <p class="topList">Top Listing</p>
               <p class="topListTwo">Lorem Ipsum is simply dummy text of the printing and    </p>
-            </div>
+            </div> -->
 
-              <div class="posArrow">
+              <!-- <div class="posArrow">
                 <div class="outerArrowPos">
                   <div class="innerArrowPos">
                   <a href=""><i class="fa fa-arrow-right "></i></a>
                 </div>
                 </div>
-            </div>
+            </div> -->
             </div>
         </div>
 
@@ -127,33 +131,33 @@
                   <div class="table-responsive">
                     <table class="table">
                       <tr class="thborderUpDown">
-                        <th>Transaction ID</th>
-                        <th>Payee Detail</th>
-                        <th>Date</th>
-                        <th>Amount($)</th>
-                        <th>Details</th>
+                        <th>PLAN ID</th>
+                        <th>PLAN NAME</th>
+                        <th>STATUS</th>
+                        <th>AMOUNT</th>
+                        <th>DUE DATE</th>
 
                       </tr>
                       <tr>
                       <td>000001</td>
                       <td>JohnDoe 1</td>
-
-                        <td>24/11/2020</td>
-                      
+                        <td>
+                        <div class="ApproveColor">Payment Sent</div>
+                        </td> 
                         <td>
                           USD 10,250
                       </td>                      
                         <td>
-                        <a href="#" class="btn btn-outline-primary radiusBtn">view</a>
+                        <a href="#" class="btn btn-outline-primary radiusBtn">save</a>
                       </td>
                       </tr>
 
                      <tr>
                       <td>000001</td>
                       <td>JohnDoe 1</td>
-
-                        <td>24/11/2020</td>
-                      
+                        <td>
+                        <div class="SubmittedColor">Payment Pending</div>
+                        </td>
                         <td>
                           USD 10,250
                       </td>                      
@@ -182,6 +186,8 @@
     </div>
   </div>
 </div>
+<!-- payment modal -->
+
   <!-- General JS Scripts -->
   <script src="assets/js/app.min.js"></script>
   <!-- JS Libraies -->

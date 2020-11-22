@@ -154,11 +154,25 @@ p.topList {
     font-size: 12px;
     font-family: 'regularFont';
 }
+
 p.topListTwo {
-    font-size: 11px;
+    font-size: 20px;
     line-height: 16px;
     font-family: 'lightFont';
     margin-bottom: 8px;
+    margin-top: 14px;
+}
+.modal-header-padding {
+    padding-top: 10px !important;
+}
+.payTitle {
+    font-size: 18px;
+}
+.modal-body-strip label {
+    font-family: 'SemiBoldFont';
+}
+.ProfileImg {
+    margin-left: 30px;
 }
 .posArrow {
     position: absolute;
@@ -552,9 +566,10 @@ h6.AttachLoi {
 .fontSideNav span{
 color: #beb4b4  !important;
 }
-
 .bbb {
     color: #60686f;
+    font-family: 'lightFont';
+    font-size: 12px;
 }
 #footer.stikybottom {
     position: fixed;

@@ -11,7 +11,7 @@
             <li class=" ProfileImg  mb-3">
                 
             <a href="#" data-toggle="dropdown"
-              class="nav-link  nav-link-lg nav-link-user nohoverUser"> <img alt="image" src="assets/img/user.png"
+              class="nav-link  nav-link-lg nav-link-user nohoverUser"> <img alt="image" src="./assets/img/user-8.png"
                 class="user-img-radious-style"> 
                 <span class="d-sm-none d-lg-inline-block ml-3">
                 <span class="bbbUN text-white lightFont">Username</span>
@@ -21,11 +21,11 @@
             </li>
 
 
-            <li class=""><a class="nav-link mt-5 bgSidebar fontSideNav semiBoldFont" href="project_Submission"><span>Project Submission</span></a></li>
+            <li class=""><a class="nav-link mt-5 bgSidebar fontSideNav regularFont" href="project_Submission"><span>Project Submission</span></a></li>
 
-            <li class=""><a class="nav-link mt-4 bgSidebar fontSideNav semiBoldFont" href="payment_panel"><span>Payment Panel</span></a></li>
+            <li class=""><a class="nav-link mt-4 bgSidebar fontSideNav regularFont" href="payment_panel"><span>Payment Panel</span></a></li>
 
-            <li class=""><a class="nav-link mt-4 bgSidebar fontSideNav semiBoldFont" href="investment_panel.php"><span>Investment Panel</span></a></li>
+            <li class=""><a class="nav-link mt-4 bgSidebar fontSideNav regularFont" href="investment_panel.php"><span>Investment Panel</span></a></li>
 
           </ul>
         </aside>

@@ -64,7 +64,7 @@
         </div>
         
         <div class="d-flex justify-content-center ">
-        <button class="btn btnPayStripe">Pay Via Stripe</button>
+        <button class="btn btnPayStripe"   data-toggle="modal" data-target="#myModal">Payr Via Stripe</button>
         </div>
     </div>
     </div>
@@ -131,6 +131,101 @@
       </footer> -->
     </div>
   </div>
+
+  
+<!-- The Modal -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header modal-header-padding">
+        <h4 class="modal-title payTitle mediumFont">                        Payment Details
+                        
+</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body modal-body-strip">
+      <div class="row">
+        <div class="col-xs-12 col-md-12">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    
+                    <div class="checkbox pull-right">
+                        <label>
+                            <input type="checkbox" />
+                            Remember
+                        </label>
+                    </div>
+                </div>
+                <div class="panel-body">
+                    <form role="form">
+                    <div class="form-group">
+                        <label for="cardNumber">
+                            CARD NUMBER</label>
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="cardNumber" placeholder="Valid Card Number"
+                                required autofocus />
+                            <span class="input-group-addon"></span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-8 col-md-8">
+                            <div class="form-group">
+                                <label for="expityMonth">
+                                    EXPIRY DATE</label>
+                                    <div class="row">
+                                <div class="col-xs-6 col-lg-6 pl-ziro">
+                                    <input type="text" class="form-control" id="expityMonth" placeholder="MM" required />
+                                </div>
+                                <div class="col-xs-6 col-lg-6 pl-ziro">
+                                    <input type="text" class="form-control" id="expityYear" placeholder="YY" required /></div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-4 col-md-4 pull-right">
+                            <div class="form-group">
+                                <label for="cvCode">
+                                    CV CODE</label>
+                                <input type="password" class="form-control" id="cvCode" placeholder="CV" required />
+                            </div>
+                        </div>
+                    </div>
+                    </form>
+                    
+            <br/>
+            
+            <a href="http://www.jquery2dotnet.com" class="btn btn-success btn-block" role="button">Pay</a>
+                    <h6 class="orPayClass text-center mt-3">--- or ---</h6>
+                     <form role="form">
+                    <div class="form-group">
+                        <label for="cardNumber">
+                            Strip Account No</label>
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="cardNumber" placeholder="Account No"
+                                required autofocus />
+                            <span class="input-group-addon"></span>
+                        </div>
+                    </div>
+                    </form>
+                </div>
+            </div>
+            <br/>
+            <a href="http://www.jquery2dotnet.com" class="btn btn-success  btn-block" role="button">Pay</a>
+        </div>
+    </div>
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
   <!-- General JS Scripts -->
   <script src="assets/js/app.min.js"></script>
   <!-- JS Libraies -->

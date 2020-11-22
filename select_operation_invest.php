@@ -42,13 +42,13 @@
           </div>  
         </div>
         <div class="row mt-3 mb-5">
-          <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12">
+          <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
             <div class="projSub">
               <h4 class="projSubH">
-              Investor
+              Total Plans
               </h4>
-              <p class="topList">Top Listing</p>
-              <p class="topListTwo">Lorem Ipsum is simply dummy text of the printing and typesetting   </p>
+              <p class="topList"></p>
+              <p class="topListTwo">5   </p>
               
               <div class="posArrow">
                   <div class="outerArrowPos">
@@ -59,13 +59,13 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12">
+          <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
             <div class="paymentPanel">
               <h4 class="projSubH">
-              Payment Panel
+              Total Amount
               </h4>
-              <p class="topList">Top Listing</p>
-              <p class="topListTwo">Lorem Ipsum is simply dummy text of the printing and typesetting.  </p>
+              <p class="topList"></p>
+              <p class="topListTwo">$10000
               <div class="posArrow">
                   <div class="outerArrowPos">
                   <div class="innerArrowPos">
@@ -76,14 +76,13 @@
             </div>
           </div>
           
-          <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+          <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
             <div class="investmentPanel">
               <h4 class="projSubH">
-              Investment Panel
+              Wallet
               </h4>
-              <p class="topList">Top Listing</p>
-              <p class="topListTwo">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry.  </p>
+              <p class="topList"></p>
+              <p class="topListTwo">$1000  </p>
               <div class="posArrow">
                   <div class="outerArrowPos">
                   <div class="innerArrowPos">
@@ -108,24 +107,18 @@
                   <div class="table-responsive">
                     <table class="table ">
                       <tr class="thborderUpDown">
-                        <th>ID</th>
-                        <th>Project Name</th>
+                        <th>Plan Id</th>
+                        <th>Name</th>
                         <th>Duration</th>
-                        <th>value</th>
-                        <th>Status</th>
+                        <th>Started at</th>          
+                        <th>Amount Received</th>
                         <th>details</th>
 
                       </tr>
                       <tr>
                       <td>OOOOO1</td>
                         <td class="text-truncate">
-                          <ul class="list-unstyled m-b-0 m-b-0">
-                            <li class="team-member team-member-sm"><img class="saqure-img"
-                                src="assets/img/users/user-8.png" alt="user" data-toggle="tooltip" title=""
-                                data-original-title="Beyond Tv Mail">
-                                <span class="TableCompanyName ml-4">Beyond Tv Mail</span>
-                              </li>
-                          </ul>
+                        Beyond Tv Mail
                         </td>
                         <td class="align-middle">
                         <span class="TableCompanyName ">3 to 5 Years</span>
@@ -141,13 +134,7 @@
                       <tr>
                       <td>OOOOO1</td>
                         <td class="text-truncate">
-                          <ul class="list-unstyled m-b-0 m-b-0">
-                            <li class="team-member team-member-sm"><img class="saqure-img"
-                                src="assets/img/users/user-8.png" alt="user" data-toggle="tooltip" title=""
-                                data-original-title="Beyond Tv Mail">
-                                <span class="TableCompanyName ml-4">Beyond Tv Mail</span>
-                              </li>
-                          </ul>
+                          Beyond Tv Mail
                         </td>
                         <td class="align-middle">
                         <span class="TableCompanyName ">3 to 5 Years</span>
@@ -163,20 +150,14 @@
                       <tr>
                       <td>OOOOO1</td>
                         <td class="text-truncate">
-                          <ul class="list-unstyled m-b-0 m-b-0">
-                            <li class="team-member team-member-sm"><img class="saqure-img"
-                                src="assets/img/users/user-8.png" alt="user" data-toggle="tooltip" title=""
-                                data-original-title="Beyond Tv Mail">
-                                <span class="TableCompanyName ml-4">Beyond Tv Mail</span>
-                              </li>
-                          </ul>
+                          Beyond Tv Mail
                         </td>
                         <td class="align-middle">
                         <span class="TableCompanyName ">3 to 5 Years</span>
                         </td>
                         <td>USD 100000</td>
                         <td>
-                        <div class="unapproveColor">UnApproved</div>
+                        <div class="unapproveColor">Received</div>
                         </td>
                         <td>
                         <a href="#" class="btn btn-outline-primary radiusBtn">Detail</a>
