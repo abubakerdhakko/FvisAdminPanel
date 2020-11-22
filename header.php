@@ -3,11 +3,11 @@
           <ul class="navbar-nav mr-3">
             <li>
               <form class="form-inline mr-auto">
-                <div class="search-element">
+                <div class="search-element hoverBar " id="growContainer">
                 <button class="btn searchBaricon" type="submit">
                     <i class="fas fa-search"></i>
                   </button>  
-                <input class="form-control searchBarBorder" type="search" placeholder="Search" aria-label="Search" >
+                <input class="form-control searchBarBorder grow" type="search" placeholder="Search" aria-label="Search" >
                 </div>
               </form>
             </li>
