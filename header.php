@@ -1,7 +1,10 @@
 <nav class="navbar navbar-expand-lg main-navbar sticky">
         <div class="form-inline mr-auto">
           <ul class="navbar-nav mr-3">
-            <li>
+            
+            <li class="showonlyMob"><a href="#" data-toggle="sidebar" class="nav-link nav-link-lg
+									collapse-btn"> <i data-feather="align-justify"></i></a></li>
+            <li class="d-none d-md-block">
               <form class="form-inline mr-auto">
                 <div class="search-element hoverBar " id="growContainer">
                 <button class="btn searchBaricon" type="submit">

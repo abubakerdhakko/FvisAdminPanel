@@ -62,13 +62,13 @@
                 </div>
                 <div class="card-body p-0">
                   <div class="table-responsive">
-                    <table class="table">
+                    <table class="table ">
                       <tr>
-                        <th>ID</th>
-                        <th>Project Name</th>
-                        <th>Duration</th>
-                        <th>value</th>
-                        <th>Status</th>
+                        <th>Plan Id</th>
+                        <th>Plan Name</th>
+                        <th>Name</th>
+                        <th>email</th>
+                        <th>Address</th>
                         <th>details</th>
 
                       </tr>

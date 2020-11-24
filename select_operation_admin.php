@@ -20,8 +20,6 @@
 </head>
 
 <body>
-<div class="" id="wwrapper">
-
   <div class="loader"></div>
   <div id="app">
     <div class="main-wrapper main-wrapper-1">
@@ -31,111 +29,138 @@
 
 <!-- sidebar -->
 <?php include 'sidebar.php';?>
-    <section id="mmain">
 
       <!-- Main Content -->
       <div class="main-content">
         <section class="section">
           <div class="d-flex justify-content-between">
-          <div class="">
-            <a class="AnchorDashboard">Back To Dashboard</a>
-          </div>
+          <div class="regularFont">
+            <span class="panelClass">Dashboard</span>         
+           </div>
           <div class="">
             <p class="lightFontWellcome">Wellcome to <span class="panelClass">Admin panel</span></p>
           </div>  
+        </div>
+        <div class="row mt-3 mb-5">
+          <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
+            <div class="projSub">
+              <h4 class="projSubH">
+              Inveators
+              </h4>
+              <p class="topList"></p>
+              <p class="topListTwo">5   </p>
+              
+              <div class="posArrow">
+                  <div class="outerArrowPos">
+                  <div class="innerArrowPos">
+                  <a href=""><i class="fa fa-arrow-right "></i></a>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
+            <div class="paymentPanel">
+              <h4 class="projSubH">
+              investment
+              </h4>
+              <p class="topList"></p>
+              <p class="topListTwo">$10000
+              <div class="posArrow">
+                  <div class="outerArrowPos">
+                  <div class="innerArrowPos">
+                  <a href=""><i class="fa fa-arrow-right "></i></a>
+               </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
+            <div class="investmentPanel">
+              <h4 class="projSubH">
+              Wallet
+              </h4>
+              <p class="topList"></p>
+              <p class="topListTwo">$1000  </p>
+              <div class="posArrow">
+                  <div class="outerArrowPos">
+                  <div class="innerArrowPos">
+                  <a href=""><i class="fa fa-arrow-right "></i></a>
+
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
           <div class="row">
             <div class="col-12">
               <div class="card">
                 <div class="card-header">
-                  <h4>Assign Task Table</h4>
+                  <h4>Top Project</h4>
                   <div class="card-header-form">
-                    <form>
-                      <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Search">
-                        <div class="input-group-btn">
-                          <button class="btn btn-primary"><i class="fas fa-search"></i></button>
-                        </div>
-                      </div>
-                    </form>
+                    <a class="AnchorDashboard">View All</a>
                   </div>
                 </div>
                 <div class="card-body p-0">
                   <div class="table-responsive">
-                    <table class="table">
-                      <tr>
-                        <th>ID</th>
-                        <th>Project Name</th>
-                        <th>Duration</th>
-                        <th>value</th>
-                        <th>Status</th>
-                        <th>details</th>
+                    <table class="table ">
+                      <tr class="thborderUpDown">
+                        <th>Projects</th>
+                        <th>Fund Required</th>
+                        <th>Funding Method</th>
+                        <th>Status</th>          
+                        <th>Max Time</th>
+                        <th>Details</th>
 
                       </tr>
                       <tr>
                       <td>OOOOO1</td>
                         <td class="text-truncate">
-                          <ul class="list-unstyled m-b-0 m-b-0">
-                            <li class="team-member team-member-sm"><img class="saqure-img"
-                                src="assets/img/users/user-8.png" alt="user" data-toggle="tooltip" title=""
-                                data-original-title="Beyond Tv Mail">
-                                <span class="TableCompanyName ml-4">Beyond Tv Mail</span>
-                              </li>
-                          </ul>
+                        Beyond Tv Mail
                         </td>
                         <td class="align-middle">
                         <span class="TableCompanyName ">3 to 5 Years</span>
                         </td>
                         <td>USD 100000</td>
                         <td>
-                        <div class="ApproveColor">Approved</div>
+                        <div class="">3 to 5 Years</div>
                         </td>
                         <td>
-                        <a href="#" class="btn btn-outline-primary radiusBtn">Detail</a>
+                        <a href="#" class="btn btn-outline-primary radiusBtn">View</a>
                       </td>
                       </tr>
                       <tr>
                       <td>OOOOO1</td>
                         <td class="text-truncate">
-                          <ul class="list-unstyled m-b-0 m-b-0">
-                            <li class="team-member team-member-sm"><img class="saqure-img"
-                                src="assets/img/users/user-8.png" alt="user" data-toggle="tooltip" title=""
-                                data-original-title="Beyond Tv Mail">
-                                <span class="TableCompanyName ml-4">Beyond Tv Mail</span>
-                              </li>
-                          </ul>
+                          Beyond Tv Mail
                         </td>
                         <td class="align-middle">
                         <span class="TableCompanyName ">3 to 5 Years</span>
                         </td>
                         <td>USD 100000</td>
                         <td>
-                        <div class="SubmittedColor">Approved</div>
+                        <div class="">3 to 5 Years</div>
                         </td>
                         <td>
-                        <a href="#" class="btn btn-outline-primary radiusBtn">Detail</a>
+                        <a href="#" class="btn btn-outline-primary radiusBtn">View</a>
                       </td>
                       </tr>
                       <tr>
                       <td>OOOOO1</td>
                         <td class="text-truncate">
-                          <ul class="list-unstyled m-b-0 m-b-0">
-                            <li class="team-member team-member-sm"><img class="saqure-img"
-                                src="assets/img/users/user-8.png" alt="user" data-toggle="tooltip" title=""
-                                data-original-title="Beyond Tv Mail">
-                                <span class="TableCompanyName ml-4">Beyond Tv Mail</span>
-                              </li>
-                          </ul>
+                          Beyond Tv Mail
                         </td>
                         <td class="align-middle">
                         <span class="TableCompanyName ">3 to 5 Years</span>
                         </td>
                         <td>USD 100000</td>
                         <td>
-                        <div class="unapproveColor">UnApproved</div>
+                        <div class="">3 to 5 Years</div>
                         </td>
                         <td>
-                        <a href="#" class="btn btn-outline-primary radiusBtn">Detail</a>
+                        <a href="#" class="btn btn-outline-primary radiusBtn">View</a>
                       </td>
                       </tr>
                       
@@ -148,8 +173,6 @@
         </section>
         
       </div>
-</section>
-
       <footer class="main-footer">
         <div class="footer-left">
           <a href="#">Footer</a></a>
@@ -158,7 +181,6 @@
         </div>
       </footer>
     </div>
-  </div>
   </div>
   <!-- General JS Scripts -->
   <script src="assets/js/app.min.js"></script>
@@ -171,7 +193,5 @@
   <!-- Custom JS File -->
   <script src="assets/js/custom.js"></script>
 </body>
-
-
 <!-- index.html  21 Nov 2019 03:47:04 GMT -->
 </html>

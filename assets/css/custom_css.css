@@ -48,29 +48,9 @@ body {
 }
 
 .main-sidebar {
-  box-shadow: 0 4px 25px 0 rgba(0, 0, 0, 0.1);
-  position: fixed;
-  top: 0;
-  height: 100%;
-  width: 250px;
-  background-color: #022333;
-  z-index: 880;
-  left: 0;
-}
 
-.bbbUN.text-white {
-  font-size: 16px;
-  font-weight: 100;
-}
-.colorUser {
-  color: #60686f;
-}
-.nohoverUser:hover {
   background-color: #022333;
-}
 
-.main-sidebar .sidebar-menu li a:hover {
-  background-color: #022333;
 }
 .bgSidebar {
   position: relative;
@@ -86,6 +66,20 @@ body {
   background-color: #123140;
   margin-left: 30px;
   border-radius: 10px;
+}
+.bbbUN.text-white {
+  font-size: 16px;
+  font-weight: 100;
+}
+.colorUser {
+  color: #60686f;
+}
+.nohoverUser:hover {
+  background-color: #022333;
+}
+
+.main-sidebar .sidebar-menu li a:hover {
+  background-color: #022333;
 }
 .searchBaricon {
   padding-right: 0px;
@@ -343,11 +337,8 @@ h4.walletH {
 }
 
 .main-content {
-    padding-left: 280px;
-    padding-right: 30px;
     padding-top: 110px !important;
-    width: 100%;
-    position: relative;
+   
 }
 .basic {
     
@@ -637,11 +628,6 @@ button.btn.btn-primary.hover_btn_sort.dropdown-toggle:focus {
 
 
 
-@media only screen and (max-width: 600px) {
-  .mob_mt_2 {
-    margin-top: 2rem;
-  }
-}
 #growContainer{
 	display: table;
 	width:100%;
@@ -660,4 +646,32 @@ button.btn.btn-primary.hover_btn_sort.dropdown-toggle:focus {
 }
 #growContainer:hover .grow:hover {
 	width:40%;
+}
+
+
+
+
+  .showonlyMob{
+    display: none;
+  }
+@media only screen and (max-width: 768px) {
+  .mob_mt_2 {
+    margin-top: 2rem;
+  }
+  .showonlyMob{
+    display: block;
+  }
+  .projSub{
+    /* margin-top: 20px; */
+  }
+  
+  .paymentPanel{
+    margin-top: 20px;
+
+  }
+
+  
+  .investmentPanel{
+    margin-top: 20px;
+  }
 }
