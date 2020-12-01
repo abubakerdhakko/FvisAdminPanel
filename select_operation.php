@@ -79,10 +79,10 @@
           <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
             <div class="investmentPanel">
               <h4 class="projSubH">
-              Wallet
+              Attach Strip Account
               </h4>
               <p class="topList"></p>
-              <p class="topListTwo">$1000  </p>
+              <p class="topListTwo">Click Here  </p>
               <div class="posArrow">
                   <div class="outerArrowPos">
                   <div class="innerArrowPos">
