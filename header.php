@@ -67,6 +67,12 @@
               </div>
             </div>
           </li>
+          
+          <li class="dropdown dropdown-list-toggle"><a href="#" data-toggle="dropdown"
+              class="nav-link notification-toggle nav-link-lg">
+              <i class="fas fa-sign-out-alt colorlogout"></i>
+            </a>
+          </li>
           <!-- <li class="dropdown">
               <a href="#" data-toggle="dropdown"
               class="nav-link dropdown-toggle nav-link-lg nav-link-user"> <img alt="image" src="assets/img/user.png"

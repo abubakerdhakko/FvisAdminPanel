@@ -97,7 +97,7 @@
               </div>
             </div>
 
-            <div class="projWallet mt-4">
+            <div class="projWalletTwo mt-4">
               <h4 class="walletH">
               Payment Pending
               </h4>

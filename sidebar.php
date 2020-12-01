@@ -21,7 +21,7 @@
             </li>
 
 
-            <li class=""><a class="nav-link mt-5 bgSidebar fontSideNav regularFont" href="project_Submission"><span>Project Submission</span></a></li>
+            <li class=""><a class="nav-link mt-5 bgSidebar fontSideNav regularFont bgActive" href="project_Submission"><span>Project Submission</span></a></li>
 
             <li class=""><a class="nav-link mt-4 bgSidebar fontSideNav regularFont" href="payment_panel"><span>Payment Panel</span></a></li>
 

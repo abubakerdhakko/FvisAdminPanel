@@ -64,7 +64,7 @@
         </div>
         
         <div class="d-flex justify-content-center ">
-        <button class="btn btnPayStripe"   data-toggle="modal" data-target="#myModal">Payr Via Stripe</button>
+        <button class="btn btnPayStripe"   data-toggle="modal" data-target="#myModal">Pay Via Stripe</button>
         </div>
     </div>
     </div>
@@ -162,9 +162,23 @@
                 </div>
                 <div class="panel-body">
                     <form role="form">
+                        <div class="row">
+                            <div class="col-md-6">
+
+                            </div>
+                        </div>
                     <div class="form-group">
                         <label for="cardNumber">
                             CARD NUMBER</label>
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="cardNumber" placeholder="Valid Card Number"
+                                required autofocus />
+                            <span class="input-group-addon"></span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="cardNumber">
+                            AMOUNT</label>
                         <div class="input-group">
                             <input type="text" class="form-control" id="cardNumber" placeholder="Valid Card Number"
                                 required autofocus />
@@ -202,7 +216,7 @@
                      <form role="form">
                     <div class="form-group">
                         <label for="cardNumber">
-                            Strip Account No</label>
+                            AMOUNT</label>
                         <div class="input-group">
                             <input type="text" class="form-control" id="cardNumber" placeholder="Account No"
                                 required autofocus />

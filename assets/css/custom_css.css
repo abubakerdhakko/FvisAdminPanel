@@ -79,7 +79,7 @@ body {
 }
 
 .main-sidebar .sidebar-menu li a:hover {
-  background-color: #022333;
+  background-color: #123140;
 }
 .searchBaricon {
   padding-right: 0px;
@@ -288,14 +288,32 @@ p.lightFontWellcome {
     font-family: 'regularFont';
     color: #000;
 }
+.bgActive{
+      background-color: #007bff;
+      color: white !important;
+}
 .projWallet {
-  background: rgb(0, 105, 163);
-  background: linear-gradient(
-    90deg,
-    rgba(0, 105, 163, 1) 19%,
-    rgba(0, 130, 202, 1) 49%,
-    rgba(0, 132, 205, 1) 100%
-  );
+  background-image: url('../img/bg_invt.png');
+    /* height: 437px; */
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  padding: 20px 20px;
+  border-radius: 10px;
+  color: white;
+  position: relative;
+  max-height: 370px;
+}
+.projWalletTwo {
+  background-image: url('../img/bg_invt.png');
+    /* height: 437px; */
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
   padding: 20px 20px;
   border-radius: 10px;
   color: white;
@@ -373,6 +391,9 @@ button.btn.btnPayStripe:hover {
 }
  ul.ul_lorem_Mainn li {
   color: #156fb4;
+      font-size: 12px;
+    line-height: 14px;
+    margin-bottom: 17px;
 }
 ul.ul_lorem_Mainn li::before {
   color: #156fb4;
@@ -560,7 +581,7 @@ h6.AttachLoi {
 
 
 .fontSideNav span{
-color: #beb4b4  !important;
+/* color: #beb4b4  !important; */
 }
 .bbb {
     color: #60686f;
@@ -653,6 +674,11 @@ button.btn.btn-primary.hover_btn_sort.dropdown-toggle:focus {
 
   .showonlyMob{
     display: none;
+  }
+
+  .colorlogout{
+        color: #565657;
+    font-size: 12px;
   }
 @media only screen and (max-width: 768px) {
   .mob_mt_2 {
